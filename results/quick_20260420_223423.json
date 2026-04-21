@@ -1,0 +1,92 @@
+{
+  "aggregation": "fedavg",
+  "history": [
+    {
+      "round": 1,
+      "avg_client_loss": 2.959824668036567,
+      "accuracy": 0.185,
+      "macro_f1": 0.0520393811533052,
+      "macro_precision": 0.030833333333333334,
+      "macro_recall": 0.16666666666666666,
+      "round_time": 0.7495942115783691
+    },
+    {
+      "round": 2,
+      "avg_client_loss": 2.7696401377518973,
+      "accuracy": 0.165,
+      "macro_f1": 0.04721030042918455,
+      "macro_precision": 0.0275,
+      "macro_recall": 0.16666666666666666,
+      "round_time": 0.7028117179870605
+    },
+    {
+      "round": 3,
+      "avg_client_loss": 2.425908317168554,
+      "accuracy": 0.165,
+      "macro_f1": 0.04721030042918455,
+      "macro_precision": 0.0275,
+      "macro_recall": 0.16666666666666666,
+      "round_time": 0.7112159729003906
+    },
+    {
+      "round": 4,
+      "avg_client_loss": 2.491374800602595,
+      "accuracy": 0.165,
+      "macro_f1": 0.04721030042918455,
+      "macro_precision": 0.0275,
+      "macro_recall": 0.16666666666666666,
+      "round_time": 0.7169196605682373
+    }
+  ],
+  "final_results": {
+    "accuracy": 0.165,
+    "macro_precision": 0.0275,
+    "macro_recall": 0.16666666666666666,
+    "macro_f1": 0.04721030042918455,
+    "per_class": {
+      "0": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 26
+      },
+      "1": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 37
+      },
+      "2": {
+        "precision": 0.165,
+        "recall": 1.0,
+        "f1": 0.2832618025751073,
+        "support": 33
+      },
+      "3": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 37
+      },
+      "4": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 35
+      },
+      "5": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 32
+      }
+    },
+    "n_samples": 200
+  },
+  "params_info": {
+    "backbone": 1955648,
+    "head": 35078,
+    "total": 1990726,
+    "comm_cost_MB": 7.460205078125
+  }
+}
